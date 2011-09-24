@@ -13,8 +13,10 @@ Installation
 
 add:
 
-`require 'rubygems'`
-`require 'invim'`
+```ruby
+require 'rubygems'
+require 'invim'
+```
 
 to ~/.irbrc
 
