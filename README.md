@@ -4,7 +4,7 @@ Invim
 Description
 -----------
 
-Invim is a gem that provides you with a quick and easy way to open current terminal tab in Vim for easy searching & copying. Terminal.app only.
+Invim is a gem that provides you with a quick and easy way to open current terminal tab (shell/irb) in Vim for easy searching & copying. Terminal.app only.
 
 Installation
 ------------
