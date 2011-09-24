@@ -1,0 +1,18 @@
+#!/bin/sh
+
+> /tmp/invim.tmp
+osascript <<END
+  set the_filepath to "/tmp/invim.tmp" 
+  set the_file to POSIX file the_filepath
+  tell application "Terminal"
+    tell front window
+      set the_text to history of selected tab as text
+    end
+  end
+
+  open for access the_file with write permission
+  write the_text to the_file
+  close access the_file
+END
+
+/Applications/MacVim.app/Contents/MacOS/Vim + /tmp/invim.tmp
