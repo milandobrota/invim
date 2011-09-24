@@ -12,8 +12,10 @@ Installation
 `gem install invim`
 
 add:
-`require 'rubygems'
-require 'invim'`
+
+`require 'rubygems'`
+`require 'invim'`
+
 to ~/.irbrc
 
 
