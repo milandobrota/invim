@@ -9,6 +9,11 @@ Invim is a gem that provides you with a quick and easy way to open current termi
 Installation
 ------------
 
-gem install invim
+`gem install invim`
+
+add:
+`require 'rubygems'
+require 'invim'`
+to ~/.irbrc
 
 
